@@ -1,0 +1,28 @@
+.about_experience {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.about_experience_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.about_experience_title {
+    margin: 0;
+    flex-shrink: 200px;
+    flex-basis: 200px;
+}
+.about_experience_company {
+    order: 1;
+    flex: 1;
+    margin: 0;
+}
+
+@media screen and( min-width: 400px) {
+    .about_experience_company {
+        order: unset;
+    }
+}
