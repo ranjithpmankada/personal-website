@@ -24,8 +24,8 @@ function Home() {
                     <Link to="/contact">Contact</Link>
                 </nav>
                 <footer className='footer'>
-                    <a href='https://github.com/ranjithpmankada/ ' target="_blank">Github</a>
-                    <a href='https://www.linkedin.com/in/ranjithpmankada/' target="_blank">LinkedIn</a>
+                    <a href='https://github.com/ranjithpmankada/ ' target="_blank" rel="noopener">Github</a>
+                    <a href='https://www.linkedin.com/in/ranjithpmankada/' target="_blank" rel="noopener">LinkedIn</a>
                 </footer>
             </div>
         </main>
