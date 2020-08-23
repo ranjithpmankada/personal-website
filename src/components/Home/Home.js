@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.scss';
 
 function Home() {
@@ -9,15 +10,30 @@ function Home() {
         })
     });
     return (
-        <div>
-            <header className='header'>
-                <h1 className='title_name'>Ranjith</h1>
-            </header>
-            <footer className='footer'>
-                <a href='#'>LinkedIn</a>
-                <a href='#'>Github</a>
-            </footer>
-        </div>
+        <main className='main'>
+            <div className='container'>
+                <header className='header'>
+                    <h4 className='title_name'>Ranjith</h4>
+                    <h5 className='heading'>
+                        Developer &nbsp;
+                        <span className='emoji' role="img" aria-label="computer">&#128187;</span> 
+                        <br/>
+                        Moreover a JavaScript ethusiast
+                    </h5>
+                </header>
+                <nav className='nav'>
+                    <Link to="/about">About</Link>
+                    <div className='nav_seperator'></div>
+                    <Link to="/works">Works</Link>
+                    <div className='nav_seperator'></div>
+                    <Link to="/contact">Contact</Link>
+                </nav>
+                <footer className='footer'>
+                    <a href='https://github.com/ranjithpmankada/ ' target="_blank">Github</a>
+                    <a href='https://www.linkedin.com/in/ranjithpmankada/' target="_blank">LinkedIn</a>
+                </footer>
+            </div>
+        </main>
     );
 }
 

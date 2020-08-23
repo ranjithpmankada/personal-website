@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import './About.scss';
 function About() {
     const experience = [
@@ -18,8 +20,18 @@ function About() {
         }
     ];
     return (
-        <div>
-            <h3>Experience</h3>
+        <div className='about'>
+            <Link to='/'>back</Link>
+            <h1 className='title'>A bit about myself</h1>
+            <p>Just about</p>
+            <p>what i do</p>
+            <p>My experience, awards
+collaborations, and
+own vibes,
+for sure!</p>
+<p>So,</p>
+<p>I'm Ranjith - A web developer with a Computer Science Engineering major.</p>
+            <h3 className='sub-title'>Experience</h3>
             <ul className='about_experience'>
                 {experience.map((element , index)=> (
                 <li key= {index}className='about_experience_row'>
