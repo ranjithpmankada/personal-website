@@ -4,7 +4,6 @@ import ScrollContainer from './components/ScrollContainer/ScrollContainer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import WaitingScreen from './components/WaitingScreen/WaitingScreen';
 
 function App() {
   return (
