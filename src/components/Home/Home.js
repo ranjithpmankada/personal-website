@@ -3,12 +3,7 @@ import { Link } from 'react-router-dom';
 import './Home.scss';
 
 function Home() {
-    const [a,aa] = useState(0);
-    useEffect(() => {
-        window.addEventListener('scroll', (e) => {
-            console.log(e.clientY);
-        })
-    });
+
     return (
         <main className='main'>
             <div className='container'>
