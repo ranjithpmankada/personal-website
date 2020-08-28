@@ -10,7 +10,9 @@
     margin: 0 auto;
 }
 .header {
-    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .title_name {
     margin-bottom: 2vh;
