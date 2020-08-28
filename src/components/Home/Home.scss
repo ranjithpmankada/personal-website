@@ -5,7 +5,7 @@
 }
 .container {
     display: grid;
-    grid-template-rows: 2fr 5fr 2fr;
+    grid-template-rows: 2fr 5fr 1fr;
     height: 100%;
     margin: 0 auto;
 }
@@ -67,7 +67,7 @@
 }
 .nav_seperator {
     height: 1px;
-    width: 80%;
+    width: 70%;
     background-color: #acb1a1;
 }
 .footer {
