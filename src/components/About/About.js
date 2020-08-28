@@ -25,10 +25,7 @@ function About() {
             <h1 className='title'>A bit about myself</h1>
             <p>Just about</p>
             <p>what i do</p>
-            <p>My experience, awards
-collaborations, and
-own vibes,
-for sure!</p>
+            <p>My experience, awards collaborations, and own vibes,for sure!</p>
 <p>So,</p>
 <p>I'm Ranjith - A web developer with a Computer Science Engineering major.</p>
             <h3 className='sub-title'>Experience</h3>
