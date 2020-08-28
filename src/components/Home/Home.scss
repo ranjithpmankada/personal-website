@@ -26,12 +26,21 @@
     text-transform: uppercase;
     text-align: center;
 }
+@keyframes a {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 .nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     & a {
+        animation-name: a;
         text-transform: uppercase;
         font-weight: 800;
         color: rgb(44, 42, 42);
