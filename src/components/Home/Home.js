@@ -17,11 +17,11 @@ function Home() {
                     </h5>
                 </header>
                 <nav className='nav'>
-                    <Link to="/about">About</Link>
+                    <Link className="nav_links"  to="/about">About</Link>
                     <div className='nav_seperator'></div>
-                    <Link to="/works">Works</Link>
+                    <Link className="nav_links" to="/works">Works</Link>
                     <div className='nav_seperator'></div>
-                    <Link to="/contact">Contact</Link>
+                    <Link className="nav_links" to="/contact">Contact</Link>
                 </nav>
                 <footer className='footer'>
                     <a href='https://github.com/ranjithpmankada/ ' target="_blank" rel="noopener noreferrer">Github</a>

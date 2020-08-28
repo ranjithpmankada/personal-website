@@ -39,7 +39,7 @@
         &:hover {
             transform: scaleX(0.9);
         }
-        &:nth-child(1)::after {
+        & .nav-links:nth-child(1)::after {
             content: "01";
             display: inline-block;
             font-size: 0.8rem;
@@ -47,7 +47,7 @@
             position: absolute;
 
         }
-        &:nth-child(2)::after {
+        & .nav-links:nth-child(2)::after {
             content: "02";
             display: inline-block;
             font-size: 0.8rem;
@@ -55,7 +55,7 @@
             position: absolute;
 
         }
-        &:nth-child(3)::after {
+        & .nav-links:nth-child(3)::after {
             content: "03";
             display: inline-block;
             font-size: 0.8rem;
