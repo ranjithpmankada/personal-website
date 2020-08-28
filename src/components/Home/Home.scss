@@ -26,7 +26,7 @@
     text-transform: uppercase;
     text-align: center;
 }
-@keyframes a {
+@keyframes aa {
     from {
         opacity: 0;
     }
@@ -40,7 +40,7 @@
     justify-content: space-around;
     align-items: center;
     & a {
-        animation-name: a;
+        animation-name: aa;
         text-transform: uppercase;
         font-weight: 800;
         color: rgb(44, 42, 42);
