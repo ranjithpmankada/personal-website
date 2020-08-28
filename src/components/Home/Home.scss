@@ -71,6 +71,14 @@
             position: absolute;
 
         }
+        &:nth-child(5)::after {
+            content: "05";
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: normal;
+            position: absolute;
+
+        }
     }
 }
 .nav_seperator {
