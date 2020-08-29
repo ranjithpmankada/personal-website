@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.scss";
-import Loader from "../Loader/Loader";
 
 function Home() {
 	return (
@@ -53,7 +52,6 @@ function Home() {
 						LinkedIn
 					</a>
 				</footer>
-				<Loader />
 			</div>
 		</main>
 	);
