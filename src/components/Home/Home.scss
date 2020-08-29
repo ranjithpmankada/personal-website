@@ -29,12 +29,14 @@
 @keyframes aa {
     from {
         opacity: 0;
+        transform: skewX(4deg);
     }
     to {
         opacity: 1;
+        transform: skewX(50deg);
     }
 }
-.nav {
+.nav_container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
