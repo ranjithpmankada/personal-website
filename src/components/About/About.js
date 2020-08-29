@@ -21,7 +21,7 @@ function About() {
 	];
 	return (
 		<div className='about'>
-			<Nav />
+			<Nav page='About' />
 			<h1 className='title'>A bit about myself</h1>
 			<p>Just about</p>
 			<p>what i do</p>
