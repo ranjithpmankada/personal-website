@@ -1,5 +1,10 @@
 // Reset default browser styles using 'minireset.css'
 @import "https://cdn.rawgit.com/jgthms/minireset.css/master/minireset.min.css";
+
+@font-face {
+  font-family: 'Radio Grotesk';
+  src: url('../src/RadioGrotesk/RadioGrotesk/RadioGrotesk-Regular.otf');
+}
 * {
   -webkit-font-smoothing: antialiased;
 }
