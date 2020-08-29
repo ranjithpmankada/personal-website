@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Nav from "../Nav/Nav";
 import "./About.scss";
+
 function About() {
 	const experience = [
 		{
@@ -21,7 +22,7 @@ function About() {
 	];
 	return (
 		<div className='about'>
-			<Link to='/'>back</Link>
+			<Nav />
 			<h1 className='title'>A bit about myself</h1>
 			<p>Just about</p>
 			<p>what i do</p>
