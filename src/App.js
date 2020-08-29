@@ -4,7 +4,6 @@ import ScrollContainer from './components/ScrollContainer/ScrollContainer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Loader from './components/Loader/Loader';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
             <Route path="/about"><About /></Route>
           </Switch>
         </BrowserRouter>
-        <Loader />
       </ScrollContainer>
     </div>
   );

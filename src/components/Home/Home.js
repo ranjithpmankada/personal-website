@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.scss';
+import Loader from '../Loader/Loader';
 
 function Home() {
 
@@ -27,6 +28,7 @@ function Home() {
                     <a href='https://github.com/ranjithpmankada/ ' target="_blank" rel="noopener noreferrer">Github</a>
                     <a href='https://www.linkedin.com/in/ranjithpmankada/' target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </footer>
+                <Loader />
             </div>
         </main>
     );
