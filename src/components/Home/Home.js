@@ -9,13 +9,13 @@ function Home() {
 				<header className='header'>
 					<h4 className='title_name'>Ranjith</h4>
 					<h5 className='heading'>
-						Creative developer &nbsp;
+						Creative &#x26A1; developer &nbsp;
 						<span
 							className='emoji'
 							role='img'
 							aria-label='computer'
 						>
-							&#128187;&#x26A1;
+							&#128187;
 						</span>
 						<br />
 						Moreover a JavaScript ethusiast
