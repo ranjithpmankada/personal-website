@@ -15,7 +15,7 @@ function Home() {
 							role='img'
 							aria-label='computer'
 						>
-							&#128187;
+							&#128187; &#x26A1;
 						</span>
 						<br />
 						Moreover a JavaScript ethusiast
