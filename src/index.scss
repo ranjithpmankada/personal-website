@@ -2,19 +2,19 @@
 @import "https://cdn.rawgit.com/jgthms/minireset.css/master/minireset.min.css";
 
 @font-face {
-  font-family: 'Radio Grotesk';
-  src: url('../src/RadioGrotesk/RadioGrotesk/RadioGrotesk-Regular.otf');
+	font-family: "Radio Grotesk";
+	src: url("../src/RadioGrotesk/RadioGrotesk/RadioGrotesk-Regular.otf");
 }
 * {
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: 'Radio Grotesk', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: "Radio Grotesk", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }

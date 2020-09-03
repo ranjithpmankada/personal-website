@@ -10,7 +10,8 @@
 	padding: 0;
 }
 .about_experience_row {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-evenly;
@@ -22,7 +23,6 @@
 	flex-basis: 200px;
 }
 .about_experience_company {
-	display: none;
 	flex: 1;
 	margin: 0;
 }
