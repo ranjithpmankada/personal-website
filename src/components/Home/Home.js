@@ -9,7 +9,7 @@ function Home() {
 				<header className='header'>
 					<h4 className='title_name'>Ranjith</h4>
 					<h5 className='heading'>
-						Creative
+						Creative &nbps;
 						<span role='img' aria-label='creative'>
 							&#x26A1;
 						</span>
