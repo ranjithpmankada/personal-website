@@ -4,7 +4,9 @@ import Nav from "../Nav/Nav";
 function Contact() {
 	return (
 		<div className='contact'>
-			<Nav page='Contact' />
+			<div className='container'>
+				<Nav page='Contact' />
+			</div>
 		</div>
 	);
 }
