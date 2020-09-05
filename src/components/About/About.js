@@ -17,7 +17,7 @@ function About() {
 			company: "Coregenie Technologies",
 			companyURL: "https://coregenie.com",
 			startDate: 2018,
-			endDate: 123232019,
+			endDate: 2019,
 		},
 	];
 	return (
