@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "../Nav/Nav";
 import "./About.scss";
 import Experience from "./Experience";
+import Resume from "./Resume";
+import Skills from "./Skills";
 
 function About() {
 	const experience = [
@@ -33,6 +35,8 @@ function About() {
 				Engineering major.
 			</p>
 			<Experience experience={experience} />
+			<Skills />
+			<Resume />
 		</div>
 	);
 }
